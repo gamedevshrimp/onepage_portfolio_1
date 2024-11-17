@@ -1,0 +1,60 @@
+.nav {
+    display: flex;
+}
+
+.nav__links {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.nav__link {
+    padding: 5px;
+    font-size: 1.5rem;
+    color: black;
+    text-decoration: none;
+}
+
+.nav__link:hover {
+    color: gray;
+    text-decoration: underline;
+    text-underline-offset: 0.5rem;
+    transition: color 200ms ease-out, underline 200ms ease-out;
+}
+
+  .nav__close_icon, .nav__open_icon {
+    display: none;
+  }
+
+
+@media screen and (max-width: 800px) {
+    .nav__close_icon {
+        position: absolute;
+        right: 30px;
+        top: 30px;
+        font-size: 1.5rem;
+        display: block; /* Делаем видимой */
+    }
+
+    .nav__open_icon {
+        font-size: 1.5rem;
+        display: block; /* Делаем видимой */
+    }
+
+    .nav {
+        display: block;
+        position: fixed;
+        left: 0;
+        top: 0;
+        width: 300px;
+        height: 100%;
+        background: gray;
+    }
+
+    .nav__links {
+        padding-top: 50px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+} 

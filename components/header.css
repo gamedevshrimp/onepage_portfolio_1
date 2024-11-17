@@ -1,0 +1,20 @@
+.header {
+    height: 17vh;
+    /* background-color: grey; */
+    padding: 0 50px;
+}
+
+.header__container {
+    /* background-color: rgb(227, 129, 129); */
+    max-width: 1240px;
+    margin: 0 auto;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__logo {
+    min-width: 200px;
+    font-size: 2rem;
+}
