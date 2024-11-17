@@ -44,11 +44,17 @@
     .nav {
         display: block;
         position: fixed;
-        left: 0;
+        left: -300px;
         top: 0;
         width: 300px;
         height: 100%;
-        background: gray;
+        background: white;
+        transition: left 0.3s ease;
+    }
+
+    body.show-mobile-menu .nav {
+        left: 0;
+        transition: left 0.3s ease;
     }
 
     .nav__links {
