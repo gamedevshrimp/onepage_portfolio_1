@@ -1,0 +1,26 @@
+.btn {
+    box-sizing: content-box;
+    font-weight: 100;
+    font-size: 1rem;
+    transition: all 0.3s ease;
+    background-color: black;
+    color: white;
+    padding: 16px 16px;
+    border: 1px solid white;
+    border-radius: 25px;
+}
+
+.btn:hover {
+    transition: all 0.3s ease;
+    background-color: white;
+    color: black;
+    border-color: black;
+}
+
+.btn__primary {
+
+}
+
+.btn__secondary {
+
+}

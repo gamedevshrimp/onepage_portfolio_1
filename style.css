@@ -2,6 +2,9 @@
 @import './components/fonts.css';
 @import './components/header.css';
 @import './components/navigation.css';
+@import './components/main.css';
+@import './components/section.css';
+@import './components/button.css';
 
 body {
     font-family: "Poppins", serif;
